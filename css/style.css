@@ -28,8 +28,18 @@
 .nav-li:not(:last-child) {
     margin-right: 50px;
 }
+.bars {
+    cursor: pointer;
+    width: 35px;
+    display: none;
+}
+
+.logo > img, .bars > img {
+    width: 100%;
+}
 
 /* Header end */
+
 /* Section 1 start */
 .s-1 {
     width: 1360px;
@@ -61,3 +71,48 @@
 
 
 /* Section 1 end */
+
+/*section2 start*/
+
+.box1 {
+    width: 1171.57px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+  }
+  
+  .box {
+    width: 269.07px;
+    height: 327.42px;
+    background-color: #FFFFFF;
+    line-height: 25px;
+  }
+  
+  .head {
+    font-size: 18px;
+    color: #1A1A1B;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .p {
+    font-size: 16px;
+    color: #8D8D8D;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .discover {
+    color: #8D8D8D;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 5px;
+  }
+  
+  .head1 {
+    font-size: 26px;
+    color: #1A1A1B;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 55px;
+  }
+  /*section2 end*/
